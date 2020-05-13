@@ -4,7 +4,7 @@ int main()
 {
 float Km,M,F,I,C;
 
-printf("Enter distance between two cities in Kilometers");
+printf("Enter distance between two cities in Kilometres");
 scanf("%f",Km);
 
 M=Km*1000;
