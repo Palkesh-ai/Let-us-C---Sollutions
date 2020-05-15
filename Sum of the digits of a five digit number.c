@@ -6,7 +6,7 @@ int main()
     int num,a,b,c,d,e,sum;
 
     printf("Enter a five digit number");
-    scanf("%d",num);
+    scanf("%d",&num);
 
     a=num/10000;
     b=(num/1000)%10;
