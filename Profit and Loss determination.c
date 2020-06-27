@@ -5,12 +5,16 @@ int main()[
  
  scanf("%f%f",&cp,&sp);
  
+ profit=sp-cp;
+ loss=cp-sp;
+ 
  if(sp>cp);
-     printf("Profit=");
+     printf("Profit%f",profit);
  
  else 
      if(sp==cp);
-     printf("Neither profit nor Loss");
+     printf("Neither profit nor Loss%f",loss);
+ 
   
  else
      if(sp<cp);
